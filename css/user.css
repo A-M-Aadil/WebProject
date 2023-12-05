@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .login-container {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 16em;
+    margin-right: 16em;
+    background-color: #ceebed;
+    padding: 40px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .login-container h2 {
+    color:black;
+    font-family: 'Nokora', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .login-form button {
+    width: 50%;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #251E4A;
+  }
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  .social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .social-login img {
+    width: 30px;
+    height: 30px;
+  }
+  .login-form div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .login-form a {
+    color: #0C2A77;
+    font-family: Calibri;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 450;
+    line-height: normal;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  h1.headlogin {
+    margin-top: 8px;
+    margin-left: 215px;
+    margin-right: 213px;
+    margin-bottom: -31px;
+    color:#3EC2CF;
+    text-align: center;
+    font-family: 'Nokora', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .createacc{
+    color: #000;
+    font-family: Nokora;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .login-form a.pw{
+   margin-left: 190px;
+  }
+
+.follow{
+  background-color: #FDB813;
+  padding: 5px 15px;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff !important;
+  margin-bottom: 15px;
+}
+
+.info h1.waterfall{
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: black;
+}
+.follow.active{
+  background-color: hsl(0, 0%, 93.3%);
+  color: #999 !important;
+}

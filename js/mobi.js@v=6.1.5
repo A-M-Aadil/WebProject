@@ -1,0 +1,28 @@
+$(document).ready(function () {
+    $('a.menu_mobile').click(function(){ 
+        slideMenu = $('nav.menu_top');
+        if (slideMenu.is(':hidden')) {
+            $('#off_light').removeClass('hide');
+            $('#off_light').addClass('show');
+            $(slideMenu).removeClass('hide');
+            $(slideMenu).addClass('show');
+            $('html').css({"height":"100%","width":"100%", "overflow-x":"hidden"});
+            $('body').css({"height":"100%","overflow-y":"hidden", "width":"100%", "overflow-x":"hidden"});
+        }else{
+            $('#off_light').removeClass('show');
+            $('#off_light').addClass('hide');
+            $(slideMenu).removeClass('show');
+            $(slideMenu).addClass('hide');
+            $('html').css({"height":"","width":"", "overflow-x":""});
+            $('body').css({"height":"","overflow-y":"","width":"", "overflow-x":""});
+        }
+    }); 
+    $('#off_light').click(function(){ 
+            $('#off_light').removeClass('show');
+            $('#off_light').addClass('hide');
+            $(slideMenu).removeClass('show');
+            $(slideMenu).addClass('hide');
+            $('html').css({"height":"","width":"", "overflow-x":""});
+            $('body').css({"height":"","overflow-y":"","width":"", "overflow-x":""});
+    }); 
+});
